@@ -7,7 +7,7 @@
     <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#prerequisites">Prerequisites</a></li>
     <li>
-     <a href="#how-it-works?">How It Works?</a>
+     <a href="#how-it-works">How It Works?</a>
      <ul>
      <li><a href="#usage">Usage</a></li>
      <li><a href="#mapping-types">Mapping Types</a></li>
