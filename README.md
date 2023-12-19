@@ -7,7 +7,7 @@
     <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#prerequisites">Prerequisites</a></li>
     <li>
-     <a href="#how-it-works">How It Works?</a>
+     <a href="#how-does-it-work">How Does it Work?</a>
      <ul>
      <li><a href="#usage">Usage</a></li>
      <li><a href="#mapping-types">Mapping Types</a></li>
@@ -41,8 +41,8 @@ With this tool, the developer simply configures a mapping object to be consumed 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<!-- How It Works? -->
-## How It Works?
+<!-- How Does it Work? -->
+## How Does it Work?
 
 <!-- Usage -->
 ### Usage
