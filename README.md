@@ -35,7 +35,7 @@ With this tool, the developer simply configures a mapping object to be consumed 
 <!-- Prerequisites -->
 ## Prerequisites
 
-- Make sure your Terraform provider project is using [Terraform SDKv2][tf-sdk-v2].
+- Make sure your Terraform provider project is using [Terraform SDKv2][tf-sdk-v2]
 - Basic familiarity with Terraform Plugin Provider SDKv2
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
