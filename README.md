@@ -28,7 +28,7 @@ With this tool, the developer simply configures a mapping object to be consumed 
 <!-- Prerequisites -->
 ## Prerequisites
 
-- Make sure your Terraform provider project is using Terraform SDKv2
+- Make sure your Terraform provider project is using [Terraform SDKv2][tf-sdk-v2].
 - Basic familiarity with Terraform Plugin Provider SDKv2
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -44,10 +44,10 @@ Converter Mapping & Converter Object
 https://github.com/TeraSky-OSS/terraform-schema-converter/blob/99b0fa845b5bed6d77f572a9a1e0bac38e73e78b/test/data/converter_mapping.go#L6-L115
 
 Construct  
-[converter-construct-model]
+https://github.com/TeraSky-OSS/terraform-schema-converter/blob/99b0fa845b5bed6d77f572a9a1e0bac38e73e78b/test/construct_model_test.go#L6-L67
 
 Fill Terraform Schema  
-[converter-fill-terraform-schema]
+https://github.com/TeraSky-OSS/terraform-schema-converter/blob/99b0fa845b5bed6d77f572a9a1e0bac38e73e78b/test/fill_tf_schema_test.go#L6-L53
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -75,6 +75,4 @@ Distributed under the Apache 2.0 License. See `LICENSE.txt` for more information
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[converter-mapping-object]: https://github.com/TeraSky-OSS/terraform-schema-converter/blob/99b0fa845b5bed6d77f572a9a1e0bac38e73e78b/test/data/converter_mapping.go#L6-L115
-[converter-construct-model]: https://github.com/TeraSky-OSS/terraform-schema-converter/blob/99b0fa845b5bed6d77f572a9a1e0bac38e73e78b/test/construct_model_test.go#L6-L67
-[converter-fill-terraform-schema]: https://github.com/TeraSky-OSS/terraform-schema-converter/blob/99b0fa845b5bed6d77f572a9a1e0bac38e73e78b/test/fill_tf_schema_test.go#L6-L53
+[tf-sdk-v2]: https://developer.hashicorp.com/terraform/plugin/sdkv2
