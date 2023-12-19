@@ -19,8 +19,8 @@
 
 Welcome to the Terraform Schema Converter, a tool designed to simplify the development of a Terraform Provider by streamlining the conversion proccess of data representation between a Terraform SDKv2 resource schema object and a Swagger API generated models.
 
-It is often that Terraform provider developers find themselves writing repeatative and complex code to convert the data representation of the Terraform resource schema object to match the target API structure.
-With this tool, the developer simply configures a mapping object to be consumed by a converter object that will handle the two-way conversion between the Terraform resource object and the Swagger API, elimnating most of the typing and renaming complexities and allowing the developer to focus on the actual logic required for the resource CRUD implementation.
+It is often that Terraform provider developers find themselves writing repeatative and complex code to convert the data representation of the Terraform resource schema object to match the target API structure.  
+With this tool, the developer simply configures a mapping object to be consumed by a converter object that will handle the two-way conversion between the Terraform resource object and the Swagger API models, elimnating most of the typing and renaming complexities and allowing the developer to focus on the actual logic required for the resource CRUD implementation.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -41,7 +41,7 @@ With the converter object instantiated, you can now call the construct model or 
 The following examples have been taken from the project tests:
 
 Converter Mapping & Converter Object  
-[converter-mapping-object]
+https://github.com/TeraSky-OSS/terraform-schema-converter/blob/99b0fa845b5bed6d77f572a9a1e0bac38e73e78b/test/data/converter_mapping.go#L6-L115
 
 Construct  
 [converter-construct-model]
