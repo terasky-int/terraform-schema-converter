@@ -68,7 +68,7 @@ https://github.com/TeraSky-OSS/terraform-schema-converter/blob/99b0fa845b5bed6d7
 <!-- Mapping Types -->
 ### Mapping Types
 
-The mapping types are the building blocks of a converter mapping object which instructs the converter what should be the operation for each field matching between the Terraform object and the model object.
+The [mapping types][mapping-types] are the building blocks of a converter mapping object which instructs the converter what should be the operation for each field matching between the Terraform object and the model object.
 
 #### Built-in String
 
@@ -195,3 +195,4 @@ Distributed under the Apache 2.0 License. See `LICENSE.txt` for more information
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [tf-sdk-v2]: https://developer.hashicorp.com/terraform/plugin/sdkv2
+[mapping-types]: https://github.com/TeraSky-OSS/terraform-schema-converter/blob/main/pkg/maptypes/map_types.go
